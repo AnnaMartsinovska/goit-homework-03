@@ -220,7 +220,7 @@ img {
 
 .features-items,
 .team-list-item {
-    flex-basis: calc((100%-24px*3)/4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .title {
@@ -279,6 +279,7 @@ img {
 /* ====== FOOTER =======*/
 .footer {
     background-color: var(--second-text-color);
+    padding: 100px 0;
 }
 
 .studio-white {
@@ -293,11 +294,9 @@ img {
     letter-spacing: 0.32px;
     color: var(--background-color-grey);
     max-width: 264px;
-    padding-bottom: 100px;
 }
 
 .logo-footer {
-    padding-top: 101.5px;
     margin-bottom: 17.5px;
 }
 

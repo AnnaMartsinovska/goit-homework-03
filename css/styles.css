@@ -88,6 +88,7 @@ img {
 }
 
 .logo {
+    display: inline-block;
     font-family: var(--second-font);
     font-weight: 800;
     font-size: 18px;
@@ -297,12 +298,11 @@ img {
 }
 
 .logo-footer {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
 .footer-container {
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 
@@ -334,8 +334,8 @@ img {
 .portfolio-btn:focus {
     background-color: var(--active-button);
     color: var(--background-color-white);
-    border: none;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid transparent;
 }
 
 .list-button {
@@ -350,13 +350,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 24px;
-    row-gap: 48px;
+    gap: 48px 24px;
 }
 
 .gallery-items {
-    flex-basis: calc((100%-24px*2)/3);
+    width: calc((100% - 48px) / 3);
 }
+
 
 .gallery-content {
     border: 1px solid var(--cornflower, #E7E9FC);

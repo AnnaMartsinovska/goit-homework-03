@@ -88,7 +88,6 @@ img {
 }
 
 .logo {
-    display: inline-block;
     font-family: var(--second-font);
     font-weight: 800;
     font-size: 18px;
@@ -298,6 +297,7 @@ img {
 }
 
 .logo-footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -350,7 +350,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 48px 24px;
+    gap: 24px;
 }
 
 .gallery-items {

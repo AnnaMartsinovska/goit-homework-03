@@ -71,17 +71,20 @@ img {
 
 /* ====== HEADER =======*/
 
+.header{
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+}
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 
 
 .header-navigation {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -108,7 +111,7 @@ img {
 .contacts-list {
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 

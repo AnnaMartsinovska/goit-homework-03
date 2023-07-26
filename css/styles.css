@@ -312,7 +312,7 @@ img {
 /* ====== PORTFOLIO =======*/
 
 .portfolio {
-    padding-bottom: 120px;
+    padding: 96px 0 120px 0;
 }
 
 .portfolio-btn {
@@ -342,7 +342,6 @@ img {
     display: flex;
     justify-content: center;
     column-gap: 24px;
-    padding-top: 96px;
     margin-bottom: 72px;
 }
 

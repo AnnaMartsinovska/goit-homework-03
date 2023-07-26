@@ -297,11 +297,11 @@ img {
 }
 
 .logo-footer {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
 .footer-container {
+    display: inline-block;
     display:flex;
     flex-direction: column;
 }
@@ -351,6 +351,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .gallery-items {

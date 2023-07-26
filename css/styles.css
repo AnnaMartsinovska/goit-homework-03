@@ -45,7 +45,6 @@ img {
 
 .link {
     text-decoration: none;
-    display: inline-block;
 }
 
 .link:hover,
@@ -299,6 +298,7 @@ img {
 }
 
 .logo-footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 

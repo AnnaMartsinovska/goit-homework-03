@@ -297,11 +297,9 @@ img {
     max-width: 264px;
 }
 
-.logo-style{
-    display: inline;
-}
 
 .logo-footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 
